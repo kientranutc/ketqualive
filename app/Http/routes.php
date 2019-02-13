@@ -12,5 +12,5 @@
 */
 
 $app->get('/', function () use ($app) {
-    return view('Frontend/index');
+    return view('frontend.pages.home');
 });
